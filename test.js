@@ -8,7 +8,7 @@ class Person {
     }
 
     hello() {
-        console.log(`Hello, I'm ${this.name}`);
+        console.log(`Hello, I'm ${this.name}. I'm ${this.age} years old and I have ${this.friends.length} friends.`);
     }
 }
 
@@ -24,4 +24,5 @@ const john = PersonBuilder.init()
     .addFriend("Jane")
     .addFriend("Mark")
     .build();
-console.log(john)
+
+john.hello()

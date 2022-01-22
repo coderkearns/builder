@@ -1,6 +1,6 @@
 {
   "name": "@coderkearns/builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library for utilizing the Builder design pattern easily.",
   "main": "index.js",
   "scripts": {
